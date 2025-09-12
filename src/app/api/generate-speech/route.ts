@@ -21,7 +21,7 @@ export async function POST(req: Request) {
       }
     );
   } catch (error) {
-    console.error("Error generating image:", error);
-    return new Response("Failed to generate image", { status: 500 });
+    console.error("Error generating audio:", error);
+    return new Response("Failed to generate audio", { status: 500 });
   }
 }
